@@ -1,1 +1,20 @@
-Hello World
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+
+<body>
+  <form class="formrun" action="https://form.run/api/v1/r/sSKRQBkk92sYknp7n92B" method="post" target="_blank">
+    <div>
+      <label>メールアドレス</label>
+      <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+      <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+    </div>
+
+    <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+  </form>
+</body>
+
+</html>
