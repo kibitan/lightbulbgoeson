@@ -1,8 +1,13 @@
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
   <meta charset="utf-8" />
   <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/pc.css" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/sp.css" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/reset.css" />
 </head>
 
 <body>
@@ -10,7 +15,7 @@
     <div>
       <label>メールアドレス</label>
       <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
-      <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+      <div class="error_comment" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
     </div>
 
     <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>

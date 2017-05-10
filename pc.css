@@ -1,0 +1,16 @@
+@media screen and (min-width: 641px) {
+
+.formrun{
+	margin: 5%;
+}
+
+.formrun div input{
+	width:200px;
+}
+
+.error_comment{
+	font-size: 80%;
+	color:red;
+}
+
+}
