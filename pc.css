@@ -8,7 +8,7 @@ main{
 main h1{
 	font-size: 120%;
 	font-weight:bold;
-	
+
 }
 
 main h1, main p{
@@ -29,7 +29,7 @@ main h1, main p{
 	margin-top: 5px;
 }
 
-.formrun button{
+body form.formrun button{
 	margin: 2% 5%;
 	background-color: #00CED1;
 	color:#fff;
