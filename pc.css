@@ -4,6 +4,10 @@ body{
 	margin: 0 auto;
 }
 
+.nopc{
+	display: none
+}
+
 .top_50{
 	margin-top: 50px;
 }
@@ -11,7 +15,6 @@ body{
 
 
 main{
-	width:80%;
 	margin:3% auto 2% auto;
 }
 
@@ -27,7 +30,7 @@ header h1{
  main p{
 	line-height: 1.45em;
 	font-size: 88%;
-	width: 80%;
+	max-width: 610px;
 	margin:0 auto 14px auto;
 	text-align: center;
 	color: #333;
